@@ -1,12 +1,13 @@
 /*
 
-    Slider widget (0...1024) on V0
-    Value display (0...1024) on V2
-    Button widget on digital pin (connected to an LED)
+    Slider widget on V0
+    Value display on V2
+    External led pin is the Relay
+    Internal led is the indication for power
  */
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPL3pDOLBYCX"
-#define BLYNK_TEMPLATE_NAME "trailproj2"
+#define BLYNK_TEMPLATE_NAME "Smart_coaster"
 #define BLYNK_AUTH_TOKEN "QNWhcb7n0HRngjKfiVJEdUm6l3JOBhK5"
 #include <BlynkSimpleEsp32.h>
 #include <OneWire.h>
